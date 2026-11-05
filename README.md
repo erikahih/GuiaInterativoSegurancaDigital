@@ -23,6 +23,35 @@ O projeto tem como objetivo conscientizar estudantes universitários sobre a imp
 - **CSS:** estilização e adaptação da interface a diferentes tamanhos de tela.
 - **JavaScript:** implementação das funcionalidades e interações.
 
+## Banco de dados e modelagem
+
+Como parte do desenvolvimento do projeto, foi realizada a modelagem e a implementação de um banco de dados relacional utilizando SQLite.
+
+O banco de dados foi estruturado em três tabelas principais:
+
+- **Categorias:** armazena os nomes e as descrições dos temas educativos.
+- **Perguntas:** armazena os enunciados das questões e suas respectivas categorias.
+- **Alternativas:** armazena as opções de resposta, indicando quais são corretas e apresentando explicações.
+
+As tabelas possuem relacionamentos por meio de chaves primárias e estrangeiras.
+
+### Diagrama entidade-relacionamento (DER)
+
+![Diagrama entidade-relacionamento](DER_Guia_Seguranca_Digital.png)
+
+### Operações SQL
+
+Foram realizadas operações de manipulação e consulta de dados utilizando comandos SQL:
+
+- **INSERT:** inserção de registros.
+- **SELECT:** consulta dos dados armazenados.
+- **UPDATE:** atualização de informações.
+- **DELETE:** exclusão de registros utilizados em testes.
+
+### Controle de versão
+
+O Git foi utilizado para acompanhar a evolução do projeto, registrar alterações e organizar os arquivos desenvolvidos. O repositório no GitHub foi atualizado com o banco de dados SQLite e o diagrama entidade-relacionamento.
+
 ## Como executar o projeto
 
 É necessário ter o Node.js instalado.
