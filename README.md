@@ -35,6 +35,7 @@ O banco de dados foi estruturado em três tabelas principais:
 
 As tabelas possuem relacionamentos por meio de chaves primárias e estrangeiras.
 
+**Observação:** o banco de dados SQLite foi desenvolvido como parte das atividades de modelagem e manipulação de dados do projeto, mas não está integrado à aplicação web publicada. Atualmente, os conteúdos educativos e as perguntas do questionário são definidos diretamente no código-fonte da aplicação.
 ### Diagrama entidade-relacionamento (DER)
 
 ![Diagrama entidade-relacionamento](DER_Guia_Seguranca_Digital.png)
